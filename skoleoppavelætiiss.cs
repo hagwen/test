@@ -1,9 +1,5 @@
 
 
-
-
-
-
 switch (unit)
 {
  {
@@ -99,6 +95,7 @@ public void TestInchesToMetersConversion()
     double result = Converter.ConvertInchesToMeters(1);
     Assert.AreEqual(0.0254, result);
 }
+
 
 if (args.Length == 0 || args[0] != "-t")
 {
